@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width initial-scale=1.0">
+<title>Designing Web App using HTML/CSS/REACT</title>
+<script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+<!-- Don't use this in production: -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+    function Ass1(){
+        return (
+            <React.Fragment>
+                <div>
+                    <div>
+                        <div className='yellowblock'></div>
+                        <div className='yellowblock'></div>
+                    </div>
+                    <div>
+                        <div className='redblock'></div>
+                    </div>
+                    <div>
+                        <div className='purpleblock1'></div>
+                        <div className='purpleblock2'></div>
+                        <div className='purpleblock3'></div>
+                    </div>
+                </div>
+            </React.Fragment>
+        );
+    }
+    ReactDOM.render(<Ass1/>,document.getElementById('root'));
+
+</script>
+</body>
+</html>

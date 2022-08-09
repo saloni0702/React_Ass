@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  font-size: 22px;
+  padding: 100px 50px 50px;
+}
+
+.Box{
+    width: 30%;
+    height: auto;
+    background: #fff;
+    border: 3px solid black;
+    margin-top: 40px;
+    margin-left: 35%;
+    align-items: center;
+}
+
+.employee-details img
+{
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 200px;
+  margin-left: 22%;
+  margin-top: 5px;
+}
+
+.employee-details h1
+{
+  text-decoration: none;
+  color: lightblue;
+  transition: 0.3s ease color;
+  text-align: center;
+}
+
+.employee-details p
+{
+  text-align: center;
+}
+.employee-details h2
+{
+  font-size: 50px;
+  margin: 0 0 20px;
+  text-align: center;
+}
